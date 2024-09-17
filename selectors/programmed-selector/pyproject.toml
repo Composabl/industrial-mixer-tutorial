@@ -1,0 +1,12 @@
+[project]
+name = "Control Full Reaction Programmed Selector"
+version = "0.1.0"
+description = "Programmed Selector with Heuristics for CSTR"
+authors = [{ name = "John Doe", email = "john.doe@composabl.com" }]
+dependencies = [
+    "composabl-core"
+]
+
+[composabl]
+type = "selector-controller"
+entrypoint = "programmed_selector.controller:Controller"

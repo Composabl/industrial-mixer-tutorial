@@ -1,0 +1,13 @@
+[project]
+name = "Control Full Reaction"
+version = "0.1.0"
+description = ""
+authors = [{ name = "John Doe", email = "john.doe@composabl.com" }]
+dependencies = [
+    "composabl-core",
+    "numpy"
+]
+
+[composabl]
+type = "skill-teacher"
+entrypoint = "control_reaction.teacher:BaseCSTR"

@@ -1,0 +1,15 @@
+[project]
+name = "MPC Skill Group"
+version = "0.1.0"
+description = "MPC prepared for Skill Group"
+authors = [{ name = "John Doe", email = "john.doe@composabl.com" }]
+dependencies = [
+    "composabl-core",
+    "scipy",
+    "casadi==3.6.6",
+    "do_mpc==4.6.5"
+]
+
+[composabl]
+type = "skill-controller"
+entrypoint = "mpc_skill_group.controller:Controller"

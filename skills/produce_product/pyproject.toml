@@ -1,0 +1,12 @@
+[project]
+name = "Produce Product"
+version = "0.1.0"
+description = ""
+authors = [{ name = "John Doe", email = "john.doe@composabl.com" }]
+dependencies = [
+    "composabl-core"
+]
+
+[composabl]
+type = "skill-teacher"
+entrypoint = "produce_product.teacher:BaseCSTR"

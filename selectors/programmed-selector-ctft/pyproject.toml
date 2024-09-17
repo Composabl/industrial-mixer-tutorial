@@ -1,0 +1,12 @@
+[project]
+name = "CTFT Programmed Selector"
+version = "0.1.0"
+description = "Coarse Tuning/Fine Tuning Programmed Selector with Heuristics for CSTR"
+authors = [{ name = "John Doe", email = "john.doe@composabl.com" }]
+dependencies = [
+    "composabl-core"
+]
+
+[composabl]
+type = "selector-controller"
+entrypoint = "programmed_selector_ctft.controller:Controller"

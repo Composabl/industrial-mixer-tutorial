@@ -1,0 +1,20 @@
+[project]
+name = "Thermal Runaway Predictor - ML 1.2.2"
+version = "0.1.0"
+description = "ML thermal runaway predictor"
+authors = [{ name = "John Doe", email = "john.doe@composabl.com" }]
+dependencies = [
+    "composabl-core",
+    "scikit-learn==1.2.2"
+]
+
+[composabl]
+type = "perceptor"
+entrypoint = "thermal_runaway_predictor.perceptor:ThermalRunawayPredict"
+
+# Include additional data files
+[tool.setuptools.packages.find]
+where = ["thermal_runaway_predictor"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.pkl"]
