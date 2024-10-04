@@ -1,5 +1,5 @@
-# The Industrial Mixer Use Case
-The industrial mixer use case is a realistic case study of an agent controlling a continuous stirred tank chemical reaction. Read more about the case study and the agents that solved it in our whitepaper Use Cases for Intelligent Agents: Industrial Mixer.
+# The Industrial Mixer Tutorial
+The industrial mixer use case is a realistic case study of an agent controlling a continuous stirred tank chemical reaction. Read more about the case study and the agents that solved it in our whitepaper Use Cases for Intelligent Agents: [Industrial Mixer](https://cdn.prod.website-files.com/65973bba7be64ecd9a0c2ee8/663a811ded2167215bf3b9cf_Industrial%20Mixer%20Whitepaper.pdf).
 
 ## Use Case Summary
 The industrial mixer agent controls the temperature in a tank where a chemical reaction occurs to create a product.
